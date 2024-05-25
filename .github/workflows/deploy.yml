@@ -20,7 +20,7 @@ jobs:
       uses: actions/checkout@v2  
 
     - name: Send webhook
-      uses: distributhor/workflow-webhook@v1
+      uses: distributhor/workflow-webhook@v3
       with:
-        webhook_url: http://20.56.20.111:5000/webhook
+        webhook_url: "http://20.56.20.111:5000/webhook"
         data: '{"message": "New Docker image deployed"}'
