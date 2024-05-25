@@ -4,10 +4,10 @@ name: Deploy
 on:
   push:
     branches:
-      - q
+      - main
   pull_request:
     branches:
-      - q
+      - main
       
 jobs:
   # action se bo izvedel na ubuntu serverju 
